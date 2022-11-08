@@ -1,0 +1,104 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap");
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-family: "Roboto", sans-serif;
+  overflow-x: hidden;
+}
+
+.banner-1 {
+  background-color: #1cd1b0;
+  color: #000000;
+  height: 38px;
+  width: 100%;
+  padding-top: 6px;
+  padding-bottom: 5px;
+  padding-left: 20px;
+}
+
+.banner-2 {
+  background-color: #00669f;
+  color: #000000;
+  box-shadow: 0px 10px 7px rgba(0, 0, 0, 0.25);
+  height: 101px;
+  width: 100%;
+  padding-top: 25px;
+  padding-bottom: 5px;
+  padding-left: 20px;
+}
+
+h2 {
+  text-transform: uppercase;
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+section {
+  padding: auto;
+  width: 100%;
+  height: 800px;
+}
+
+.display {
+  position: relative;
+  left: 200px;
+  top: 150px;
+  width: 300px;
+  height: 550px;
+  margin-left: 40px;
+  margin-right: 40px;
+  display: inline-block;
+  background-color: #f3f3f3;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 15px 15px 0 0;
+}
+
+.display-background {
+  position: relative;
+  bottom: 30px;
+  z-index: 1;
+}
+
+.corazon {
+  position: relative;
+  top: 30px;
+  left: 30px;
+  z-index: 3;
+}
+
+.foto {
+  border-radius: 50%;
+  position: relative;
+  bottom: 95px;
+  left: 90px;
+  z-index: 2;
+}
+
+button {
+  background-color: #00669f;
+  height: 48.52px;
+  width: 128.78px;
+  padding: 10px;
+  font-size: 15px;
+  color: #f3f3f3;
+  border: none;
+  margin-top: 15px;
+}
+
+.descripcion {
+  position: relative;
+  text-align: center;
+  bottom: 80px;
+  padding: 20px;
+}
+
+footer {
+  background-color: #00669f;
+  color: #fff9f9;
+  padding: 15px;
+}
