@@ -8,7 +8,6 @@
 
 html {
   font-family: "Roboto", sans-serif;
-  overflow-x: hidden;
 }
 
 .banner-1 {
@@ -39,7 +38,6 @@ h2 {
 }
 
 section {
-  padding: auto;
   width: 100%;
   height: 800px;
 }
